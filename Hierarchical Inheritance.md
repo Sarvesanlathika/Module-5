@@ -1,6 +1,6 @@
-# Ex.No:5C Multi-level Inheritance
+# Ex.No:5C Hierarchical Inheritance
 ## AIM
-To Write a Python program to Get the name, age and location of a person and display using Multilevel inheritance.
+To Write a Python program to Get the name, age and location of a person and display using Hierarchical inheritance.
 
 ### ALGORITHM
 1.Begin the program.
