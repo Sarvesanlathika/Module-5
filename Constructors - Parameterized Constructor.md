@@ -1,32 +1,34 @@
-# Exp.No:21  
-## Constructors - Parameterized Constructor
+# Ex.No:5A Constructors - Parameterized Constructor
+# AIM
+To Write a python program using class to perform addition of three numbers using default constructor.Assume the three numbers are num1=1000 num2=2000 num3=3000
 
----
-
-### AIM  
-To write a Python code to create a class for a person with a parameterized constructor, which will take the `name` and `userid` of the person as parameters and print the `userid` of the person.
-
----
-
-### ALGORITHM
-
-1. Begin the program.  
-2. Define a `person` class.  
-3. The `person` class should have a parameterized `__init__` method that accepts two parameters: `name` and `userid`.  
-4. Inside the `__init__` method, assign the `name` to `self.name` and the `userid` to `self.userid`.  
-5. Print the `self.userid`.  
-6. Prompt the user to enter their `name` (string) and `userid`.  
-7. Create an instance `s1` of the `person` class by passing the entered `name` and `userid` to the constructor.  
-8. Terminate the program.
-
----
-
-### PROGRAM
-
+# ALGORITHM
+Begin the program.
+Define a class add with an init method to initialize the variables num1, num2, and num3 with values 1000, 2000, and 3000 respectively.
+Define a method dis() inside the class that: Calculates the sum of num1, num2, and num3, and assigns it to self.num.
+Prints the value of self.num.
+Create an object obj of the class add.
+Call the dis() method on the obj object to display the sum.
+Terminate the program.
+# PROGRAM
+```
+# REGNO:-212222060229
+# Name:-sarvesan lathika
+class add:
+    def __init__(self):
+        self.num1=1000
+        self.num2=2000
+        self.num3=3000
+    def dis(self):
+        self.num=self.num1+self.num2+self.num3
+        print(self.num)
+obj=add()
+obj.dis()
 ```
 
-```
+# OUTPUT
+<img width="1138" height="207" alt="image" src="https://github.com/user-attachments/assets/3cfbaea3-f0cd-4fe9-bedf-82dc5641cf0f" />
 
-### OUTPUT
 
-### RESULT
+# RESULT
+Thus a python program using class to perform addition of three numbers using default constructor has been successfully implemented.
