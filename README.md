@@ -7,7 +7,7 @@ Begin the program. Define a person class. The person class should have a paramet
 
 # PROGRAM
 ~~~
-Reg-212222060245 Name-Singamala Rakshitha
+Reg-212222060229 Name-sarvesan lathika
 class person:
 def init(self,a,b):
 self.a=a
@@ -34,7 +34,7 @@ Begin the program. Define the student class. Inside the student class, define th
 
 # PROGRAM
 ~~~
-Reg-212222060245 Name-Singamala Rakshitha
+Reg-212222060229 Name-sarvesan lathika
 
 class Awesome:
 def greetings(self):
@@ -59,7 +59,7 @@ Start the program. Define class a (base class): In the constructor init(), get i
 
 # PROGRAM
 ~~~
-Reg-212222060245 Name-Singamala Rakshitha
+Reg-212222060229 Name-sarvesan lathika
 
 class a:
 def init(self):
@@ -95,7 +95,6 @@ Start the program. Define class A: In the constructor init(), accept input for: 
 
 # PROGRAM
 ~~~
-Reg - 212222060245 Name - Singamala Rakshitha
 class student: def init(self,name,id,attendance): self.name=name self.id=id self.attendance=attendance def view(self): print(self.name) print(self.id) name=input() id=int(input()) attendance=int(input()) obj=student(name,id,attendance) obj.view () if attendance>=75: print("Eligible for Exam") else: print("Not Eligible for Exam")
 ~~~
 
@@ -114,7 +113,6 @@ Begin the program. Create a class Details with an init method to initialize thre
 
 # PROGRAM
 ~~~
-Reg-212222060245 Name - Singamala Rakshitha
 # hierarchical inheritance
 
 class Details:
